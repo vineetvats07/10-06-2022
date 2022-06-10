@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+     char s1[20] = "SHARDA UNIVERSITY";
+     char s2[20] = "GREATER NOIDA";
+     if (strcmp(s1, s2) ==0)
+     {
+        printf("\nstring 1 and string 2 are equal");
+     }
+     else
+      {
+         printf("\nstring 1 and 2 are different");
+      }
+      int x=strlen(s1);
+      printf("\nThe length of String 1 is %d",x);
+      int y=strlen(s2);
+      printf("\nThe length of String 2 is %d",y);
+      char str[40];
+      strcat(s1,s2);
+      printf("\nThe strings After Concatenation is:%s",s1);
+     return 0;
+}
